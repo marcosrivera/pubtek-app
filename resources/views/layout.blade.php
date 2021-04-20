@@ -33,6 +33,9 @@
                         <li class="nav-item">
                             <a class="nav-link {{ Route::currentRouteName() === 'beverages.index' ? 'active' : '' }}" href="{{ route('beverages.index') }}">Beverages</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('logout') }}">Log Out</a>
+                        </li>
                     </ul>
                 </div>
             </div>
